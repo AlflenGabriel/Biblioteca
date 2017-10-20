@@ -7,6 +7,7 @@ public class Livro {
 	private String editora;
 	private String anoLancamento;
 	private String ISBN;
+
 	public Livro(String titulo, String autor, String editora, String anoLancamento, String iSBN) {
 		super();
 		this.titulo = titulo;
@@ -15,6 +16,8 @@ public class Livro {
 		this.anoLancamento = anoLancamento;
 		ISBN = iSBN;
 	}
+
+	
 	public String getTitulo() {
 		return titulo;
 	}
